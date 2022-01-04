@@ -1,13 +1,32 @@
 #include<stdio.h>
 int main()
 {
-	int i = 1;
-	while (i <= 100)
+	int day = 0;
+scanf_s("%d", &day);
+		switch (day)
 	{
-		if (i % 2 == 1)
-			printf("%d ", i);
-		i++;
-	}
-		return 0;
-
+	case 1:
+		printf("星期1\n");
+		break;
+	case 2:
+		printf("星期2\n");
+		break;
+	case 3:
+		printf("星期3\n");
+		break;
+	case 4:
+		printf("星期4\n");
+		break;
+	case 5:
+		printf("星期5\n");
+		break;
+	case 6:
+		printf("星期6\n");
+		break;
+	case 7:
+		printf("星期7\n");
+		break;
+	
+		}
+	return 0;
 }
